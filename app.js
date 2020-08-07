@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));//allows access to public directo
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/', router);//use app/router要放在最後(至少要bodyParser之後)
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 5000;
 const CrawlerPost=require('./routes/CrawlerData');
 
 mongoose.connect(
