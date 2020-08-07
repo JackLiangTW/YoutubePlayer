@@ -1,6 +1,6 @@
 let MySocketID='';
 //const socket = io({transports: ['websocket']});
-var socket = io.connect('http://52.77.252.119');
+var socket = io.connect('http://52.77.252.119:5000');
 let CanSendMsg=true;//冷卻時間-可以Send Msg
 let ShareVideoAllData=[
         [   
