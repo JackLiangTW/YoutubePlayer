@@ -1,6 +1,6 @@
 let MySocketID='';
 //const socket = io({transports: ['websocket']});
-var socket = io.connect('http://localhost');
+var socket = io.connect();
 let CanSendMsg=true;//冷卻時間-可以Send Msg
 let ShareVideoAllData=[
         [   
